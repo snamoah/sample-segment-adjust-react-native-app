@@ -3,7 +3,7 @@ import analytics from '@segment/analytics-react-native';
 import Adjust from '@segment/analytics-react-native-adjust';
 import { StyleSheet, Text, View } from 'react-native';
 
-const WRITE_KEY = 'u58izp2B9ZmPwJXTBI7CHJ49aySV65XF';
+const WRITE_KEY = '<WRITE_KEY>';
 
 export const loadSegment = async () => {
   await analytics.setup(WRITE_KEY, {
